@@ -16,6 +16,10 @@ const routes = createBrowserRouter([
         path: "/about",
         element: <About />,
       },
+      {
+        path: "*",
+        element: <div>404 Not Found</div>,
+      },
     ],
   },
 ]);
