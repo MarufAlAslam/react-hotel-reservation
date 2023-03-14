@@ -6,6 +6,7 @@ const Checkout = () => {
     <main>
       <section className="checkout py-5">
         <div className="container">
+          <h2 className="card-title ls-3 py-4">Checkout</h2>
           <div className="row">
             <div className="col-md-6 p-4">
               <div className="card border-0">

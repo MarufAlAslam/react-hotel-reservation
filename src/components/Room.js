@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import galleryData from "./galleryData";
 
 const Room = () => {
@@ -28,9 +29,9 @@ const Room = () => {
                 <i className="fa fa-users"></i> {data.users}
               </span>
             </div>
-            <a href="checkout.html" className="btn btn-light btn-sm mt-4">
+            <Link to="/checkout" className="btn btn-light btn-sm mt-4">
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
       ))}
