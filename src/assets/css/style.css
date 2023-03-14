@@ -41,25 +41,12 @@ select:focus {
   box-shadow: unset !important;
 }
 
-#promo {
-  cursor: pointer;
-  display: block;
-}
-
-#promo.inactive {
-  display: none;
-}
-
-#promo-holder {
-  display: none;
-}
-
-#promo-holder.active {
-  display: block;
-}
-
 .availability input {
   font-size: 20px;
+}
+
+.promo-holder form * {
+  font-size: 13px !important;
 }
 
 .availability.mt-4 {
