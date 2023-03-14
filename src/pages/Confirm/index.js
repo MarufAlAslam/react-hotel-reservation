@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 const Confirm = () => {
   return (
     <main>
-      <section class="confirm py-5">
-        <div class="container">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title text-center mb-4">
+      <section className="confirm py-5">
+        <div className="container">
+          <div className="card">
+            <div className="card-body">
+              <h2 className="card-title text-center mb-4">
                 Reservation Confirmation
               </h2>
               <hr />
-              <div class="row">
-                <div class="col-sm-6">
+              <div className="row">
+                <div className="col-sm-6">
                   <p>
                     <strong>Check-in Date:</strong> 15th March 2023
                   </p>
@@ -27,7 +27,7 @@ const Confirm = () => {
                     <strong>Number of Guests:</strong> 2 Adults, 1 Child
                   </p>
                 </div>
-                <div class="col-sm-6">
+                <div className="col-sm-6">
                   <p>
                     <strong>Name:</strong> John Doe
                   </p>
@@ -40,12 +40,12 @@ const Confirm = () => {
                 </div>
               </div>
               <hr />
-              <div class="text-center">
-                <p class="mb-4">
+              <div className="text-center">
+                <p className="mb-4">
                   Thank you for choosing our hotel for your stay. We look
                   forward to welcoming you!
                 </p>
-                <Link to="/" class="btn btn-orange">
+                <Link to="/" className="btn btn-orange">
                   Return to Homepage
                 </Link>
               </div>

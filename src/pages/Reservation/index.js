@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import reservationData from "../../components/reservationData";
 
 const Reservation = () => {
@@ -55,9 +56,9 @@ const Reservation = () => {
                     starting from
                     <span className="fw-bold text-success">${data.price}</span>
                   </p>
-                  <a href="/checkout" className="btn btn-success rounded-0">
+                  <Link to="/checkout" className="btn btn-success rounded-0">
                     Select Room
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

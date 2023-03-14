@@ -7,9 +7,9 @@ const Header = () => {
     <section className="header">
       <nav className="navbar navbar-expand-lg bg-transparent">
         <div className="container">
-          <a className="navbar-brand" href="index.html">
+          <NavLink className="navbar-brand" to="/">
             <img src={logo} className="img-fluid logo" alt="" />
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"

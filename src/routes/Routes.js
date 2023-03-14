@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import About from "../pages/About";
 import Checkout from "../pages/Checkout";
 import Confirm from "../pages/Confirm";
+import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import Reservation from "../pages/Reservation";
 import Rooms from "../pages/Rooms";
@@ -35,6 +36,10 @@ const routes = createBrowserRouter([
       {
         path: "/confirm",
         element: <Confirm />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
       {
         path: "*",
